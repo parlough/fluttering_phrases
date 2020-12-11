@@ -142,7 +142,7 @@ void main() {
     });
 
     test('If only one noun contains it as second piece', () {
-      expect(generate(attributives: ['dart']).split('-')[1], equals('dart'));
+      expect(generate(nouns: ['dart']).split('-')[1], equals('dart'));
     });
   });
 }
