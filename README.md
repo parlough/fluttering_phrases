@@ -1,4 +1,4 @@
-#fluttering_phrases
+# fluttering_phrases
 Generate random noun phrases with an optional token to spice up names in your application.
 
 The library uses a predefined set of attributives and nouns, with some dart-related terms thrown in, but you can
