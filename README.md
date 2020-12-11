@@ -16,14 +16,14 @@ A simple usage example:
 import 'package:fluttering_phrases/fluttering_phrases.dart';
 
 void main() {
-  const extraAttributives = ['awesome', 'super', 'duper'];
-  const extraNouns = ['parlough', 'example', 'sdk'];
+  const attributives = ['awesome', 'super', 'duper', ...defaultAttributives];
+  const nouns = ['parlough', 'example', 'sdk', ...defaultNouns];
 
   final generatedTitle = generate(
       delimiter: ' | ',
       tokenRadix: 16,
-      extraAttributives: extraAttributives,
-      extraNouns: extraNouns);
+      attributives: attributives,
+      nouns: nouns);
 
   print(generatedTitle);
 }
