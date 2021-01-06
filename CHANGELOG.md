@@ -1,3 +1,7 @@
+## 0.1.0
+
+- **Breaking change**: Release a non-null safe version of the library.
+
 ## 0.0.2-nullsafety.1
 
 - Add destiny as a noun

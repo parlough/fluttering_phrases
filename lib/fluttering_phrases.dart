@@ -178,7 +178,7 @@ String generate(
     bool includeToken = true,
     int tokenLength = 4,
     int tokenRadix = 10,
-    int? seed,
+    int /*?*/ seed,
     List<String> attributives = defaultAttributives,
     List<String> nouns = defaultNouns}) {
   if (attributives.isEmpty || nouns.isEmpty) {

@@ -33,6 +33,5 @@ Refer to the `generate()` method documentation and the tests for more informatio
 
 ## Feature Requests and Issues
 
-I'm heavily open to feedback and until the 1.0 release I'm willing to make drastic API changes if necessary.
-Let me know of any features you'd like to see or of any issues you have on the
-issue tracker [on Github](https://github.com/parlough/fluttering_phrases/issues).
+I'm heavily open to feedback, so let me know of any features you'd like to see or of any issues
+you have on the issue tracker [on Github](https://github.com/parlough/fluttering_phrases/issues).
