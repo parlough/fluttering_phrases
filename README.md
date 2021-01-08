@@ -6,8 +6,6 @@ manually include some extra terms when generating a string.
 
 Feel free to open a pull request to add new attributives and/or nouns or remove ill-fitting ones :)
 
-*This project has not yet had a final release, therefore the API may experience small breakages.*
-
 ## Usage
 
 A simple usage example:
