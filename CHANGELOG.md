@@ -1,3 +1,7 @@
+## 0.2.0-nullsafety.1
+
+- Update dev dependencies to stable versions
+
 ## 0.2.0-nullsafety.0
 
 - Update back to null safety
