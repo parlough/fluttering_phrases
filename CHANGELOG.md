@@ -1,6 +1,9 @@
-## 0.2.0-nullsafety.1
+## 0.3.0
 
 - Update dev dependencies to stable versions
+- Update to stable Dart SDK supporting null safety
+- Add future canonical lints
+- Minor code cleanup
 
 ## 0.2.0-nullsafety.0
 

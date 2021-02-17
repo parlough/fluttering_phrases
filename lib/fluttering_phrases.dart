@@ -27,6 +27,7 @@ const defaultAttributives = [
   'exquisite',
   'fascinating',
   'fluttering',
+  'flying',
   'forlorn',
   'fuchsia',
   'glistening',
@@ -174,13 +175,13 @@ final _sharedRandom = Random();
 /// [defaultNouns] to your passed in lists if you'd like the default ones
 /// as well. There must be at least one attributive and one noun.
 String generate(
-    {String delimiter = '-',
-    bool includeToken = true,
-    int tokenLength = 4,
-    int tokenRadix = 10,
-    int? seed,
-    List<String> attributives = defaultAttributives,
-    List<String> nouns = defaultNouns}) {
+    {final String delimiter = '-',
+    final bool includeToken = true,
+    final int tokenLength = 4,
+    final int tokenRadix = 10,
+    final int? seed,
+    final List<String> attributives = defaultAttributives,
+    final List<String> nouns = defaultNouns}) {
   if (attributives.isEmpty || nouns.isEmpty) {
     throw ArgumentError('There must be at least 1 attributive and 1 noun.');
   }
