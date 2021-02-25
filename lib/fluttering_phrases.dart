@@ -103,6 +103,7 @@ const defaultNouns = [
   'fauna',
   'flash',
   'flora',
+  'flurry',
   'glacier',
   'glimmer',
   'gorge',

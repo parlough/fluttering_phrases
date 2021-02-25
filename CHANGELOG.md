@@ -1,3 +1,7 @@
+## 0.3.1
+
+- Add "flurry" as one of the default nouns.
+
 ## 0.3.0
 
 - Update dev dependencies to stable versions
