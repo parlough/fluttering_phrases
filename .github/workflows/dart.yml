@@ -16,12 +16,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        sdk: [ dev ]
+        sdk: [ stable, dev ]
     steps:
       - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v0.1
+      - uses: dart-lang/setup-dart@v1.0
         with:
-          channel: ${{ matrix.sdk }}
+          sdk: ${{ matrix.sdk }}
       - id: install
         name: Install dependencies
         run: dart pub get
@@ -38,12 +38,12 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-latest ]
-        sdk: [ dev ]
+        sdk: [ stable, dev ]
     steps:
       - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v0.1
+      - uses: dart-lang/setup-dart@v1.0
         with:
-          channel: ${{ matrix.sdk }}
+          sdk: ${{ matrix.sdk }}
       - id: install
         name: Install dependencies
         run: dart pub get
