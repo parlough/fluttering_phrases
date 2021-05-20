@@ -130,7 +130,8 @@ void main() {
     });
 
     test('Does not throw error if only one attribute', () {
-      expect(() => generate(attributives: ['fluttering']), isNot(throwsArgumentError));
+      expect(() => generate(attributives: ['fluttering']),
+          isNot(throwsArgumentError));
     });
 
     test('Does not throw error if only one noun', () {
@@ -138,7 +139,8 @@ void main() {
     });
 
     test('If only one attribute contains it as first piece', () {
-      expect(generate(attributives: ['fluttering']).split('-')[0], equals('fluttering'));
+      expect(generate(attributives: ['fluttering']).split('-')[0],
+          equals('fluttering'));
     });
 
     test('If only one noun contains it as second piece', () {
