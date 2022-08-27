@@ -1,3 +1,8 @@
+## 0.4.0-dev
+
+- Update minimum SDK requirement to Dart 2.17
+- Update used linting and analysis options
+
 ## 0.3.2
 
 - Lazily create the shared random object when needed.

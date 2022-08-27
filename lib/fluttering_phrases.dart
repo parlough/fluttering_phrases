@@ -151,7 +151,7 @@ const defaultNouns = [
 ];
 
 /// The random shared by generation calls which don't pass in a seed.
-late final _sharedRandom = Random();
+final _sharedRandom = Random();
 
 /// Generates a lowercase attributive+noun pair with an optional token appended
 /// to the end and delimited by the specified [delimiter].
