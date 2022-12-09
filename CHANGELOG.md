@@ -3,6 +3,7 @@
 - Update minimum SDK requirement to Dart 2.17
 - Update used linting and analysis options
 - Prepare for use in Dart 3
+- Add a few new default nouns and adjectives
 
 ## 0.3.2
 
