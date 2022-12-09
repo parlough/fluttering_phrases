@@ -1,4 +1,4 @@
-## 0.4.0-dev
+## 0.4.0
 
 - Update minimum SDK requirement to Dart 2.17
 - Update used linting and analysis options
