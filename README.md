@@ -7,7 +7,7 @@ Feel free to open a pull request to add new attributives and/or nouns or remove 
 
 ## Usage
 
-A simple usage example:
+A usage example:
 
 ```dart
 import 'package:fluttering_phrases/fluttering_phrases.dart';

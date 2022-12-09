@@ -1,3 +1,6 @@
+/// Generate random noun phrases with an optional delimiting token
+/// with the configurable [generate] function
+/// to create interesting names, ids, or titles.
 library fluttering_phrases;
 
 import 'dart:math';
