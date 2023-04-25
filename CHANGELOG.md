@@ -1,4 +1,4 @@
-## 0.5.0-dev
+## 0.5.0
 
 - Update minimum SDK requirement to Dart 2.19
 - No longer explicitly name `fluttering_phrases.dart` library
