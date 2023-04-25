@@ -2,6 +2,8 @@
 
 - Update minimum SDK requirement to Dart 2.19
 - No longer explicitly name `fluttering_phrases.dart` library
+- Add 'glorious' and 'illustrious' to default adjectives
+- Add 'nebula' and 'ripple' to default nouns
 
 ## 0.4.0
 
