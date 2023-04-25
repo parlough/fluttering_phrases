@@ -1,3 +1,7 @@
+## 0.5.0-dev
+
+- Update minimum SDK requirement to Dart 2.19
+
 ## 0.4.0
 
 - Update minimum SDK requirement to Dart 2.17
