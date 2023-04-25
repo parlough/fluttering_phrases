@@ -1,7 +1,7 @@
 /// Generate random noun phrases with an optional delimiting token
 /// with the configurable [generate] function
 /// to create interesting names, ids, or titles.
-library fluttering_phrases;
+library;
 
 import 'dart:math';
 
@@ -183,14 +183,15 @@ final _sharedRandom = Random();
 /// parameters respectively. You can add [defaultAttributives] and
 /// [defaultNouns] to your passed in lists if you'd like the default ones
 /// as well. There must be at least one attributive and one noun.
-String generate(
-    {final String delimiter = '-',
-    final bool includeToken = true,
-    final int tokenLength = 4,
-    final int tokenRadix = 10,
-    final int? seed,
-    final List<String> attributives = defaultAttributives,
-    final List<String> nouns = defaultNouns}) {
+String generate({
+  final String delimiter = '-',
+  final bool includeToken = true,
+  final int tokenLength = 4,
+  final int tokenRadix = 10,
+  final int? seed,
+  final List<String> attributives = defaultAttributives,
+  final List<String> nouns = defaultNouns,
+}) {
   if (attributives.isEmpty || nouns.isEmpty) {
     throw ArgumentError('There must be at least 1 attributive and 1 noun.');
   }
