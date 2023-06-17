@@ -2,7 +2,7 @@ name: fluttering_phrases
 description: >
   Generate random noun phrases with an optional token
   to spice up names in your application.
-version: 1.0.0-wip
+version: 1.0.0
 repository: https://github.com/parlough/fluttering_phrases
 
 environment:

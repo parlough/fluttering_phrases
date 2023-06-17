@@ -1,20 +1,20 @@
-## 1.0.0-wip
+## 1.0.0
 
-- Require Dart 3 or higher
+- Update minimum SDK requirement to Dart 3.0.
 
 ## 0.5.0
 
-- Update minimum SDK requirement to Dart 2.19
-- No longer explicitly name `fluttering_phrases.dart` library
-- Add 'glorious' and 'illustrious' to default adjectives
-- Add 'nebula' and 'ripple' to default nouns
+- Update minimum SDK requirement to Dart 2.19.
+- No longer explicitly name `fluttering_phrases.dart` library.
+- Add 'glorious' and 'illustrious' to default adjectives.
+- Add 'nebula' and 'ripple' to default nouns.
 
 ## 0.4.0
 
-- Update minimum SDK requirement to Dart 2.17
-- Update used linting and analysis options
-- Prepare for use in Dart 3
-- Add a few new default nouns and adjectives
+- Update minimum SDK requirement to Dart 2.17.
+- Update used linting and analysis options.
+- Prepare for use in Dart 3.
+- Add a few new default nouns and adjectives.
 
 ## 0.3.2
 
