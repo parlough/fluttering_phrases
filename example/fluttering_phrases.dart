@@ -5,10 +5,11 @@ void main() {
   const nouns = ['parlough', 'example', 'sdk', ...defaultNouns];
 
   final generatedTitle = generate(
-      delimiter: ' | ',
-      tokenRadix: 16,
-      attributives: attributives,
-      nouns: nouns);
+    delimiter: ' | ',
+    tokenRadix: 16,
+    attributives: attributives,
+    nouns: nouns,
+  );
 
   print(generatedTitle);
 }
