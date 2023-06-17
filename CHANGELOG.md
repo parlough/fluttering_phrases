@@ -1,3 +1,7 @@
+## 1.0.0-wip
+
+- Require Dart 3 or higher
+
 ## 0.5.0
 
 - Update minimum SDK requirement to Dart 2.19
