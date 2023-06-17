@@ -3,7 +3,7 @@
 /// to create interesting names, ids, or titles.
 library;
 
-import 'dart:math';
+import 'dart:math' show Random;
 
 /// The default attributive terms used to generate phrases.
 const defaultAttributives = [
