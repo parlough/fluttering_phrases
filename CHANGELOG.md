@@ -1,3 +1,7 @@
+## 1.0.1-wip
+
+- Update minimum SDK requirement to Dart 3.1.
+
 ## 1.0.0
 
 - Update minimum SDK requirement to Dart 3.0.
